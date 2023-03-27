@@ -1,0 +1,191 @@
+@font-face {
+	font-family: "Rubik";
+	src: url('../fonts/Rubik.ttf');
+}
+
+* {
+	font-family: 'Rubik';
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	height: 100vh;
+}
+
+.container {
+	max-width: 1180px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.header-wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 32px;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	gap: 11px;
+}
+
+.name {
+	display: flex;
+	font-size: 20px;
+	color: #333333;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.input {
+	border: none;
+	border-bottom: 1px solid #333333;
+	width: 320px;
+	padding: 6px 0;
+	font-size: 16px;
+	outline: 0;
+}
+
+.input::placeholder {
+	color: #828282;
+}
+
+.search-button {
+	color: #E5261E;
+	border: none;
+	background-color: transparent;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.login {
+	color: #FFFFFF;
+	background-color: #E5261E;
+	border: none;
+	padding: 9px 32px 10px;
+	border-radius: 4px;
+}
+
+.movie-wrapper {
+	width: 100%;
+	max-width: 1180px;
+	display: flex;
+	align-items: center;
+	margin: 51px auto;
+}
+
+.movie {
+	display: flex;
+}
+
+.movie__back-link {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	width: 14px;
+	height: 24px;
+	margin-right: 16px;
+}
+
+.movie__images {
+	width: 100%;
+	max-width: 500px;
+	max-height: 370px;
+	padding-right: 16px;
+	display: flex;
+	justify-content: center;
+}
+
+.movie__images-wrapper {
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.movie__content {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.movie__title {
+	width: 100%;
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
+
+
+.movie__title-film {
+	width: 100%;
+	max-width: 80px;
+	margin-bottom: 16px;
+	margin-right: 24px;
+	font-size: 16px;
+	text-align: start;
+}
+
+.movie__title-name {
+	margin-bottom: 16px;
+	font-size: 20px;
+}
+
+.movie__title-name-tochno {
+	font-weight: 500;
+}
+
+
+.movie__title-description {
+	font-size: 16px;
+}
+
+
+
+
+.footer {
+	background: #F2F2F2;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+}
+
+.footer .container {
+	padding: 22px 0 25px;
+	display: flex;
+	gap: 40px;
+}
+
+.footer__image {
+	display: flex;
+	align-items: center;
+}
+
+.footer__title {
+	font-size: 16px;
+	color: #333333;
+	text-decoration: none;
+}
+
+.footer__link {
+	padding-top: 4px;
+	text-decoration: none;
+	font-weight: 600;
+	color: #1F4766;
+	max-width: max-content;
+}
+
+.footer__content {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+}
