@@ -40,3 +40,4 @@ document.querySelector('.movies__title').addEventListener('click', (event) => {
     console.log(document.querySelectorAll('.movies__item').length)
 })
 
+// клик по кнопке войти в модалке 
